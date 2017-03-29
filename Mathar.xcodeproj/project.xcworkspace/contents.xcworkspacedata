@@ -2,6 +2,6 @@
 <Workspace
    version = "1.0">
    <FileRef
-      location = "self:agario.xcodeproj">
+      location = "self:/Volumes/DATA/Development/Projects/2017/Agario/Code/Magario/Mathar.xcodeproj">
    </FileRef>
 </Workspace>

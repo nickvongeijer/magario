@@ -10,7 +10,7 @@ import SpriteKit
 
 class Ball : SKShapeNode {
     var targetDirection = CGVector(dx: 0, dy: 0)
-    var maxVelocity     = CGFloat(200.0)
+    var maxVelocity     = CGFloat(300.0)
     var force           = CGFloat(5000.0)
     var radius          = CGFloat(0)
     var color:Int?      = nil
@@ -22,7 +22,7 @@ class Ball : SKShapeNode {
     var contacted : Set<SKNode> = []
     var nameLabel : SKLabelNode? = nil
     
-	init(ballName name : String?, ballValue value : Int, ballColor color : Int, ballMass mass : CGFloat, ballPosition pos : CGPoint) {
+	init(ballName name : String?, ballValue value : Int, ballColor color : Int, ballMass mass : CGFloat, ballPosition pos : CGPoint, isUser: Bool = false) {
         super.init()
         self.name   = "ball-" + UUID().uuidString
         self.ballName = name
@@ -68,7 +68,7 @@ class Ball : SKShapeNode {
         self.mass = m
         self.zPosition = m
         self.force = 5000.0 * self.mass / 10.0
-        self.maxVelocity = 200.0 / log10(self.mass)
+        self.maxVelocity = 300.0 / log10(self.mass)
         self.radius = sqrt(m) * 10.0
         
         if let nl = self.nameLabel {
@@ -160,11 +160,7 @@ class Ball : SKShapeNode {
                 if self.contains(node.position) {
 					if (node as! Food).sufValue == self.ballValue {
 						
-						var update = false
-						if (node.parent?.children as! [Food]).filter({$0.sufValue == self.ballValue}).count <= 3 {
-							update = true
-						}
-						self.eatFood(node as! Food, update: update)
+						self.eatFood(node as! Food)
 						contacted.remove(node)
 					}
                 }
@@ -206,7 +202,7 @@ class Ball : SKShapeNode {
         }
     }
     
-	func eatFood(_ food : Food, update: Bool) {
+	func eatFood(_ food : Food) {
         // Destroy the food been eaten
         food.removeFromParent()
         self.setMass(self.mass! + 1)
@@ -215,12 +211,10 @@ class Ball : SKShapeNode {
         self.initPhysicsBody()
         self.physicsBody?.velocity = oldv!
 		
-		if update {
-			self.ballValue = randomValue()
-			self.nameLabel?.text = randomAddEquation(sum: UInt32(self.ballValue!))
-			self.color = GlobalConstants.Color[self.ballValue!]
-			self.fillColor = UIColor.init(hex: self.color!)
-		}
+		self.ballValue = randomValue()
+		self.nameLabel?.text = randomAddEquation(sum: UInt32(self.ballValue!))
+		self.color = GlobalConstants.Color[self.ballValue!]
+		self.fillColor = UIColor.init(hex: self.color!)
     }
     
     func resetReadyMerge() {

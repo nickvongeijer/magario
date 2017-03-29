@@ -28,10 +28,10 @@ class AIPlayer : Player {
             if b.physicsBody?.velocity == CGVector(dx: 0, dy: 0) {
                 //print("a")
                 self.move(randomPosition())
-            } else if b.position.x + b.radius > 450 || b.position.x - b.radius < -450 {
+            } else if b.position.x + b.radius > 2950 || b.position.x - b.radius < -2950 {
                 //print("here", b.position.x, b.radius)
                 self.move(randomPosition())
-            } else if b.position.y + b.radius > 450 || b.position.y - b.radius < -450 {
+            } else if b.position.y + b.radius > 2950 || b.position.y - b.radius < -2950 {
                 //print("there")
                 self.move(randomPosition())
             } else {

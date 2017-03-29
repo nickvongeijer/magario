@@ -30,7 +30,7 @@ class Hud: SKNode {
             i.text = ""
         }
         
-        for i in 0 ..< min(lst.count, 3) {
+        for i in 0 ..< min(lst.count, 6) {
             let s = String(describing: lst[i]["name"]!)
             scoreLabel[i].text = String(i + 1) + " . " + (s.characters.count > 0 ? s : "Annoymous")
         }
@@ -56,7 +56,7 @@ class Hud: SKNode {
         
         // Top Right : Show Leaderboard
         let leaderboardWidth = self.width! / 5
-        let leaderboardHeight = self.height! / 4
+        let leaderboardHeight = self.height! / 2.5
         leaderboard = SKSpriteNode()
         leaderboard.size = CGSize(width: leaderboardWidth, height: leaderboardHeight)
         leaderboard.color = UIColor.gray.withAlphaComponent(0.3)
@@ -69,15 +69,24 @@ class Hud: SKNode {
         let topPlayer = SKLabelNode(fontNamed:"AmericanTypewriter-Bold" )
         let sndPlayer = SKLabelNode(fontNamed: "AmericanTypewriter-Bold")
         let thirdPlayer = SKLabelNode(fontNamed: "AmericanTypewriter-Bold")
+		let firthPlayer = SKLabelNode(fontNamed: "AmericanTypewriter-Bold")
+		let fifthPlayer = SKLabelNode(fontNamed: "AmericanTypewriter-Bold")
+		let sixthPlayer = SKLabelNode(fontNamed: "AmericanTypewriter-Bold")
         scoreLabel.append(topPlayer)
         scoreLabel.append(sndPlayer)
         scoreLabel.append(thirdPlayer)
+		scoreLabel.append(firthPlayer)
+		scoreLabel.append(fifthPlayer)
+		scoreLabel.append(sixthPlayer)
 
         leaderboardLabel.fontColor = UIColor.white
         topPlayer.fontColor = UIColor.white
         sndPlayer.fontColor = UIColor.white
         thirdPlayer.fontColor = UIColor.white
-        
+		firthPlayer.fontColor = UIColor.white
+		fifthPlayer.fontColor = UIColor.white
+		sixthPlayer.fontColor = UIColor.white
+		
         leaderboardLabel.text = "Leaderboard"
 
         let scalingFactor = min(leaderboardWidth / (leaderboardLabel.frame.width * 1.8), leaderboardHeight / (leaderboardLabel.frame.height * 1.8))
@@ -85,7 +94,10 @@ class Hud: SKNode {
         topPlayer.fontSize *= scalingFactor
         sndPlayer.fontSize *= scalingFactor
         thirdPlayer.fontSize *= scalingFactor
-        
+		firthPlayer.fontSize *= scalingFactor
+		fifthPlayer.fontSize *= scalingFactor
+		sixthPlayer.fontSize *= scalingFactor
+		
         let midLeaderboard_x = leaderboard.frame.width/2
         let leaderboardLabel_y = leaderboard.frame.height - leaderboardLabel.frame.height * 1.8
         let leaderboardLabelHeight = leaderboardLabel.frame.height
@@ -93,12 +105,18 @@ class Hud: SKNode {
         topPlayer.position = CGPoint(x: midLeaderboard_x, y: leaderboardLabel_y - leaderboardLabelHeight * 1.8)
         sndPlayer.position = CGPoint(x: midLeaderboard_x, y: topPlayer.position.y - leaderboardLabelHeight * 1.8)
         thirdPlayer.position = CGPoint(x: midLeaderboard_x, y: sndPlayer.position.y - leaderboardLabelHeight * 1.8)
-        
+		firthPlayer.position = CGPoint(x: midLeaderboard_x, y: thirdPlayer.position.y - leaderboardLabelHeight * 1.8)
+		fifthPlayer.position = CGPoint(x: midLeaderboard_x, y: firthPlayer.position.y - leaderboardLabelHeight * 1.8)
+		sixthPlayer.position = CGPoint(x: midLeaderboard_x, y: fifthPlayer.position.y - leaderboardLabelHeight * 1.8)
+		
         leaderboard.addChild(leaderboardLabel)
         leaderboard.addChild(topPlayer)
         leaderboard.addChild(sndPlayer)
         leaderboard.addChild(thirdPlayer)
-        
+		leaderboard.addChild(firthPlayer)
+		leaderboard.addChild(fifthPlayer)
+		leaderboard.addChild(sixthPlayer)
+		
         // Bottom Right : Show split button
         let splitBtnWidth = self.width! / 8
         splitBtn = SKSpriteNode(imageNamed: "split-button")

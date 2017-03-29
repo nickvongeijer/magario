@@ -1,5 +1,5 @@
 # IOS Agario Clone
-This IOS game is a small clone of <a href="http://agar.io/">Agario</a> using Spritekit framework.
+This IOS game is a small clone of <a href="http://magar.io/">Magario</a> using Spritekit framework.
 
 ### Requirement:
 Xcode 7.0.1, Swift

@@ -36,21 +36,32 @@ struct GlobalConstants {
     ]
     
     static let Skin = [
-        "china"          : "china.png",
-        "united kingdom" : "uk.png",
-        "usa"            : "usa.png",
-        "australia"      : "australia.png",
-        "german"         : "german.png",
-        "canada"         : "canada.png",
-        "india"          : "india.png",
-        "doge"           : "doge.png"
+        "china": "china",
+        "united kingdom" : "uk",
+        "usa"            : "usa",
+        "australia"      : "australia",
+        "german"         : "german",
+        "canada"         : "canada",
+        "india"          : "india",
+        "doge"           : "doge"
     ]
+	
+	static let SkinName = [
+		"china",
+		"united kingdom",
+		"usa",
+		"australia",
+		"german",
+		"canada",
+		"india",
+		"doge"
+	]
     
     static let FoodRadius = CGFloat(10)
     static let BarrierRadius = CGFloat(70)
-    static let MapSize = CGSize(width: 2000, height: 2000)	// 4000 * 4000
-    static let FoodLimit = 100								// 500
-    static let FoodRespawnRate = 10
+    static let MapSize = CGSize(width: 6000, height: 6000)	// 4000 * 4000
+    static let FoodLimit = 500								// 500
+    static let FoodRespawnRate = 30
     static let BarrierLimit = 5								// 15
     static let BarrierRespawnInterval = 45
     static let LeaderboardUpdateInterval = 1
@@ -58,8 +69,8 @@ struct GlobalConstants {
     static let minumDecibel = Float(40.0)
     static let PersistentLeaderboardUpdateInterval = 30
     static let MaxNameLength = 10
-	static let StupidPlayerCount		= 3
-	static let SmarterPlayerCount	= 3
+	static let StupidPlayerCount		= 0
+	static let SmarterPlayerCount	= 8
     
     // Server
     static let BroadcastInterval : Double = 0.10

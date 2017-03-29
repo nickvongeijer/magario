@@ -36,25 +36,17 @@
 		B57EEA181BCBBA60003016C2 /* SoundController.swift in Sources */ = {isa = PBXBuildFile; fileRef = B57EEA171BCBBA60003016C2 /* SoundController.swift */; };
 		B5875C121BCC993C008DC2D0 /* LeaderboardView.swift in Sources */ = {isa = PBXBuildFile; fileRef = B5875C111BCC993C008DC2D0 /* LeaderboardView.swift */; };
 		B59016D41BA6AD27008215A3 /* pattern.png in Resources */ = {isa = PBXBuildFile; fileRef = B59016D31BA6AD27008215A3 /* pattern.png */; };
-		B5906D951BB173470002BB00 /* usa.png in Resources */ = {isa = PBXBuildFile; fileRef = B5906D941BB173470002BB00 /* usa.png */; };
-		B5906D9B1BB173520002BB00 /* german.png in Resources */ = {isa = PBXBuildFile; fileRef = B5906D981BB173520002BB00 /* german.png */; };
-		B5906D9D1BB1748E0002BB00 /* china.png in Resources */ = {isa = PBXBuildFile; fileRef = B5906D9C1BB1748E0002BB00 /* china.png */; };
 		B5AA3C541BA9841700E41081 /* Hud.swift in Sources */ = {isa = PBXBuildFile; fileRef = B5AA3C531BA9841700E41081 /* Hud.swift */; };
 		B5C28C001BBABF2E0084D87D /* icon-leaderboard.png in Resources */ = {isa = PBXBuildFile; fileRef = B5C28BFF1BBABF2E0084D87D /* icon-leaderboard.png */; };
 		B5E0B1BC1BA843E800A153EC /* Food.swift in Sources */ = {isa = PBXBuildFile; fileRef = B5E0B1BB1BA843E800A153EC /* Food.swift */; };
 		B5E0B1C81BA9271C00A153EC /* split-button.png in Resources */ = {isa = PBXBuildFile; fileRef = B5E0B1C71BA9271C00A153EC /* split-button.png */; };
-		B5EB9C0C1BB180C6007A5D8D /* uk.png in Resources */ = {isa = PBXBuildFile; fileRef = B5EB9C0B1BB180C6007A5D8D /* uk.png */; };
-		B5EB9C0E1BB180CE007A5D8D /* canada.png in Resources */ = {isa = PBXBuildFile; fileRef = B5EB9C0D1BB180CE007A5D8D /* canada.png */; };
-		B5EB9C101BB180E4007A5D8D /* australia.png in Resources */ = {isa = PBXBuildFile; fileRef = B5EB9C0F1BB180E4007A5D8D /* australia.png */; };
-		B5EB9C121BB18194007A5D8D /* india.png in Resources */ = {isa = PBXBuildFile; fileRef = B5EB9C111BB18194007A5D8D /* india.png */; };
-		B5EB9C141BB18361007A5D8D /* doge.png in Resources */ = {isa = PBXBuildFile; fileRef = B5EB9C131BB18361007A5D8D /* doge.png */; };
 		B5EB9C201BB19B70007A5D8D /* barrier.png in Resources */ = {isa = PBXBuildFile; fileRef = B5EB9C1F1BB19B70007A5D8D /* barrier.png */; };
 		B5F759FF1BAD9D0A00953E9A /* UIColorExtension.swift in Sources */ = {isa = PBXBuildFile; fileRef = B5F759FE1BAD9D0A00953E9A /* UIColorExtension.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
 		3A414FD01BB071DE00FCB78C /* StupidPlayer.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = StupidPlayer.swift; sourceTree = "<group>"; };
-		3A6A6EAF1BA59D9200FC75A1 /* agario.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = agario.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		3A6A6EAF1BA59D9200FC75A1 /* Mathar.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Mathar.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		3A6A6EB31BA59D9200FC75A1 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		3A6A6EB41BA59D9200FC75A1 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		3A6A6EB61BA59D9200FC75A1 /* GameScene.sks */ = {isa = PBXFileReference; lastKnownFileType = file.sks; path = GameScene.sks; sourceTree = "<group>"; };
@@ -84,18 +76,10 @@
 		B57EEA171BCBBA60003016C2 /* SoundController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = SoundController.swift; sourceTree = "<group>"; };
 		B5875C111BCC993C008DC2D0 /* LeaderboardView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = LeaderboardView.swift; sourceTree = "<group>"; };
 		B59016D31BA6AD27008215A3 /* pattern.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = pattern.png; sourceTree = "<group>"; };
-		B5906D941BB173470002BB00 /* usa.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = usa.png; sourceTree = "<group>"; };
-		B5906D981BB173520002BB00 /* german.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = german.png; sourceTree = "<group>"; };
-		B5906D9C1BB1748E0002BB00 /* china.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = china.png; sourceTree = "<group>"; };
 		B5AA3C531BA9841700E41081 /* Hud.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Hud.swift; sourceTree = "<group>"; };
 		B5C28BFF1BBABF2E0084D87D /* icon-leaderboard.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "icon-leaderboard.png"; sourceTree = "<group>"; };
 		B5E0B1BB1BA843E800A153EC /* Food.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Food.swift; sourceTree = "<group>"; };
 		B5E0B1C71BA9271C00A153EC /* split-button.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "split-button.png"; sourceTree = "<group>"; };
-		B5EB9C0B1BB180C6007A5D8D /* uk.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = uk.png; sourceTree = "<group>"; };
-		B5EB9C0D1BB180CE007A5D8D /* canada.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = canada.png; sourceTree = "<group>"; };
-		B5EB9C0F1BB180E4007A5D8D /* australia.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = australia.png; sourceTree = "<group>"; };
-		B5EB9C111BB18194007A5D8D /* india.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = india.png; sourceTree = "<group>"; };
-		B5EB9C131BB18361007A5D8D /* doge.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = doge.png; sourceTree = "<group>"; };
 		B5EB9C1F1BB19B70007A5D8D /* barrier.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = barrier.png; sourceTree = "<group>"; };
 		B5F759FE1BAD9D0A00953E9A /* UIColorExtension.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = UIColorExtension.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
@@ -114,7 +98,7 @@
 		3A6A6EA61BA59D9200FC75A1 = {
 			isa = PBXGroup;
 			children = (
-				3A6A6EB11BA59D9200FC75A1 /* agario */,
+				3A6A6EB11BA59D9200FC75A1 /* Mathar */,
 				3A6A6EB01BA59D9200FC75A1 /* Products */,
 			);
 			sourceTree = "<group>";
@@ -122,12 +106,12 @@
 		3A6A6EB01BA59D9200FC75A1 /* Products */ = {
 			isa = PBXGroup;
 			children = (
-				3A6A6EAF1BA59D9200FC75A1 /* agario.app */,
+				3A6A6EAF1BA59D9200FC75A1 /* Mathar.app */,
 			);
 			name = Products;
 			sourceTree = "<group>";
 		};
-		3A6A6EB11BA59D9200FC75A1 /* agario */ = {
+		3A6A6EB11BA59D9200FC75A1 /* Mathar */ = {
 			isa = PBXGroup;
 			children = (
 				3A6A6EB41BA59D9200FC75A1 /* AppDelegate.swift */,
@@ -159,13 +143,13 @@
 				3A6A6EC11BA59D9200FC75A1 /* LaunchScreen.xib */,
 				3A6A6EB21BA59D9200FC75A1 /* Supporting Files */,
 			);
+			name = Mathar;
 			path = agario;
 			sourceTree = "<group>";
 		};
 		3A6A6EB21BA59D9200FC75A1 /* Supporting Files */ = {
 			isa = PBXGroup;
 			children = (
-				B5906D931BB173040002BB00 /* skin */,
 				B51EC6FE1BB13C6E0079FDEC /* icon-info.png */,
 				B5C28BFF1BBABF2E0084D87D /* icon-leaderboard.png */,
 				B533E9D51BBBACB50064C917 /* icon-pause.png */,
@@ -179,27 +163,12 @@
 			name = "Supporting Files";
 			sourceTree = "<group>";
 		};
-		B5906D931BB173040002BB00 /* skin */ = {
-			isa = PBXGroup;
-			children = (
-				B5EB9C131BB18361007A5D8D /* doge.png */,
-				B5906D981BB173520002BB00 /* german.png */,
-				B5EB9C111BB18194007A5D8D /* india.png */,
-				B5EB9C0D1BB180CE007A5D8D /* canada.png */,
-				B5EB9C0F1BB180E4007A5D8D /* australia.png */,
-				B5906D9C1BB1748E0002BB00 /* china.png */,
-				B5EB9C0B1BB180C6007A5D8D /* uk.png */,
-				B5906D941BB173470002BB00 /* usa.png */,
-			);
-			name = skin;
-			sourceTree = "<group>";
-		};
 /* End PBXGroup section */
 
 /* Begin PBXNativeTarget section */
-		3A6A6EAE1BA59D9200FC75A1 /* agario */ = {
+		3A6A6EAE1BA59D9200FC75A1 /* Mathar */ = {
 			isa = PBXNativeTarget;
-			buildConfigurationList = 3A6A6ED21BA59D9200FC75A1 /* Build configuration list for PBXNativeTarget "agario" */;
+			buildConfigurationList = 3A6A6ED21BA59D9200FC75A1 /* Build configuration list for PBXNativeTarget "Mathar" */;
 			buildPhases = (
 				3A6A6EAB1BA59D9200FC75A1 /* Sources */,
 				3A6A6EAC1BA59D9200FC75A1 /* Frameworks */,
@@ -209,9 +178,9 @@
 			);
 			dependencies = (
 			);
-			name = agario;
+			name = Mathar;
 			productName = agario;
-			productReference = 3A6A6EAF1BA59D9200FC75A1 /* agario.app */;
+			productReference = 3A6A6EAF1BA59D9200FC75A1 /* Mathar.app */;
 			productType = "com.apple.product-type.application";
 		};
 /* End PBXNativeTarget section */
@@ -232,7 +201,7 @@
 					};
 				};
 			};
-			buildConfigurationList = 3A6A6EAA1BA59D9200FC75A1 /* Build configuration list for PBXProject "agario" */;
+			buildConfigurationList = 3A6A6EAA1BA59D9200FC75A1 /* Build configuration list for PBXProject "Mathar" */;
 			compatibilityVersion = "Xcode 3.2";
 			developmentRegion = English;
 			hasScannedForEncodings = 0;
@@ -245,7 +214,7 @@
 			projectDirPath = "";
 			projectRoot = "";
 			targets = (
-				3A6A6EAE1BA59D9200FC75A1 /* agario */,
+				3A6A6EAE1BA59D9200FC75A1 /* Mathar */,
 			);
 		};
 /* End PBXProject section */
@@ -256,24 +225,16 @@
 			buildActionMask = 2147483647;
 			files = (
 				B533E9D61BBBACB50064C917 /* icon-pause.png in Resources */,
-				B5EB9C0C1BB180C6007A5D8D /* uk.png in Resources */,
-				B5EB9C121BB18194007A5D8D /* india.png in Resources */,
 				B5EB9C201BB19B70007A5D8D /* barrier.png in Resources */,
 				B59016D41BA6AD27008215A3 /* pattern.png in Resources */,
-				B5EB9C0E1BB180CE007A5D8D /* canada.png in Resources */,
-				B5906D951BB173470002BB00 /* usa.png in Resources */,
 				B5E0B1C81BA9271C00A153EC /* split-button.png in Resources */,
 				B51EC6FD1BB13A470079FDEC /* icon-exit.png in Resources */,
 				3A6A6EC31BA59D9200FC75A1 /* LaunchScreen.xib in Resources */,
-				B5EB9C101BB180E4007A5D8D /* australia.png in Resources */,
 				B51EC6FF1BB13C6E0079FDEC /* icon-info.png in Resources */,
 				3A6A6EC01BA59D9200FC75A1 /* Images.xcassets in Resources */,
 				B51EC7031BB13DCE0079FDEC /* icon-settings.png in Resources */,
-				B5EB9C141BB18361007A5D8D /* doge.png in Resources */,
 				B5C28C001BBABF2E0084D87D /* icon-leaderboard.png in Resources */,
-				B5906D9B1BB173520002BB00 /* german.png in Resources */,
 				3A6A6EB71BA59D9200FC75A1 /* GameScene.sks in Resources */,
-				B5906D9D1BB1748E0002BB00 /* china.png in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -423,7 +384,7 @@
 				DEVELOPMENT_TEAM = 38DZ8XH3EW;
 				INFOPLIST_FILE = agario/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
-				PRODUCT_BUNDLE_IDENTIFIER = "COMP90018.$(PRODUCT_NAME:rfc1034identifier)";
+				PRODUCT_BUNDLE_IDENTIFIER = com.mathar.io;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				PROVISIONING_PROFILE = "";
 				SWIFT_VERSION = 3.0;
@@ -439,7 +400,7 @@
 				DEVELOPMENT_TEAM = 38DZ8XH3EW;
 				INFOPLIST_FILE = agario/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
-				PRODUCT_BUNDLE_IDENTIFIER = "COMP90018.$(PRODUCT_NAME:rfc1034identifier)";
+				PRODUCT_BUNDLE_IDENTIFIER = com.mathar.io;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				PROVISIONING_PROFILE = "";
 				SWIFT_VERSION = 3.0;
@@ -449,7 +410,7 @@
 /* End XCBuildConfiguration section */
 
 /* Begin XCConfigurationList section */
-		3A6A6EAA1BA59D9200FC75A1 /* Build configuration list for PBXProject "agario" */ = {
+		3A6A6EAA1BA59D9200FC75A1 /* Build configuration list for PBXProject "Mathar" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
 				3A6A6ED01BA59D9200FC75A1 /* Debug */,
@@ -458,7 +419,7 @@
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
 		};
-		3A6A6ED21BA59D9200FC75A1 /* Build configuration list for PBXNativeTarget "agario" */ = {
+		3A6A6ED21BA59D9200FC75A1 /* Build configuration list for PBXNativeTarget "Mathar" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
 				3A6A6ED31BA59D9200FC75A1 /* Debug */,

@@ -158,8 +158,8 @@ class GameScene: SKScene {
             for _ in 0..<GlobalConstants.StupidPlayerCount {
 				let _ = StupidPlayer(playerName: "Stupid AI", playerValue: randomValue(), parentNode: self.playerLayer)
             }
-            for _ in 0..<GlobalConstants.SmarterPlayerCount {
-                let _ = AIPlayer(playerName: "Smarter AI", playerValue: randomValue(), parentNode: self.playerLayer)
+            for i in 0..<GlobalConstants.SmarterPlayerCount {
+                let _ = AIPlayer(playerName: GlobalConstants.SkinName[i], playerValue: randomValue(), parentNode: self.playerLayer)
             }
         }
         

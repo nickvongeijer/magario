@@ -1,0 +1,32 @@
+{
+  "DVTSourceControlWorkspaceBlueprintPrimaryRemoteRepositoryKey" : "A79A75B7B28D8039C8D0AC65E6DE46FBB9A68446",
+  "DVTSourceControlWorkspaceBlueprintWorkingCopyRepositoryLocationsKey" : {
+    "6664a1a3-b837-494e-9f0c-04368c14b365++9051" : {
+
+    }
+  },
+  "DVTSourceControlWorkspaceBlueprintWorkingCopyStatesKey" : {
+    "A79A75B7B28D8039C8D0AC65E6DE46FBB9A68446" : 9223372036854775807,
+    "6664a1a3-b837-494e-9f0c-04368c14b365++9051" : 9223372036854775807
+  },
+  "DVTSourceControlWorkspaceBlueprintIdentifierKey" : "2EC2F343-A436-4D7D-B239-1921F2D04A74",
+  "DVTSourceControlWorkspaceBlueprintWorkingCopyPathsKey" : {
+    "A79A75B7B28D8039C8D0AC65E6DE46FBB9A68446" : "Magario\/",
+    "6664a1a3-b837-494e-9f0c-04368c14b365++9051" : ".."
+  },
+  "DVTSourceControlWorkspaceBlueprintNameKey" : "Mathar",
+  "DVTSourceControlWorkspaceBlueprintVersion" : 204,
+  "DVTSourceControlWorkspaceBlueprintRelativePathToProjectKey" : "Mathar.xcodeproj",
+  "DVTSourceControlWorkspaceBlueprintRemoteRepositoriesKey" : [
+    {
+      "DVTSourceControlWorkspaceBlueprintRemoteRepositoryURLKey" : "svn:\/\/192.168.0.22\/svn\/team2\/outsourcing",
+      "DVTSourceControlWorkspaceBlueprintRemoteRepositorySystemKey" : "com.apple.dt.Xcode.sourcecontrol.Subversion",
+      "DVTSourceControlWorkspaceBlueprintRemoteRepositoryIdentifierKey" : "6664a1a3-b837-494e-9f0c-04368c14b365++9051"
+    },
+    {
+      "DVTSourceControlWorkspaceBlueprintRemoteRepositoryURLKey" : "https:\/\/github.com\/nickvongeijer\/magario.git",
+      "DVTSourceControlWorkspaceBlueprintRemoteRepositorySystemKey" : "com.apple.dt.Xcode.sourcecontrol.Git",
+      "DVTSourceControlWorkspaceBlueprintRemoteRepositoryIdentifierKey" : "A79A75B7B28D8039C8D0AC65E6DE46FBB9A68446"
+    }
+  ]
+}
