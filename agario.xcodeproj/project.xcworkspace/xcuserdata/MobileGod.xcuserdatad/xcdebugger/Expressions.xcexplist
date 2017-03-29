@@ -1,0 +1,50 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<VariablesViewState
+   version = "1.0">
+   <ContextStates>
+      <ContextState
+         contextName = "Player.init(playerName : String, playerValue : Int, parentNode : SKNode, initPosition : CGPoint) -&gt; Player:Player.swift">
+         <PersistentStrings>
+            <PersistentString
+               value = "ball.ballValue">
+            </PersistentString>
+         </PersistentStrings>
+      </ContextState>
+      <ContextState
+         contextName = "Ball.refresh() -&gt; ():Ball.swift">
+         <PersistentStrings>
+            <PersistentString
+               value = "node.parent.children.count">
+            </PersistentString>
+            <PersistentString
+               value = "contacted.count">
+            </PersistentString>
+            <PersistentString
+               value = "node.parent">
+            </PersistentString>
+            <PersistentString
+               value = "(node as! Food).sufValue">
+            </PersistentString>
+         </PersistentStrings>
+      </ContextState>
+      <ContextState
+         contextName = "AIPlayer.randomMove() -&gt; ():AIPlayer.swift">
+      </ContextState>
+      <ContextState
+         contextName = "GameScene.update(Double) -&gt; ():GameScene.swift">
+         <PersistentStrings>
+            <PersistentString
+               value = "playerLayer.children.count">
+            </PersistentString>
+         </PersistentStrings>
+      </ContextState>
+      <ContextState
+         contextName = "Food.init(foodColor : Int, value : String) -&gt; Food:Food.swift">
+         <PersistentStrings>
+            <PersistentString
+               value = "radius">
+            </PersistentString>
+         </PersistentStrings>
+      </ContextState>
+   </ContextStates>
+</VariablesViewState>

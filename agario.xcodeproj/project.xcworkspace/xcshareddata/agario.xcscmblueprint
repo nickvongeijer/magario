@@ -1,0 +1,25 @@
+{
+  "DVTSourceControlWorkspaceBlueprintPrimaryRemoteRepositoryKey" : "6664a1a3-b837-494e-9f0c-04368c14b365++9051",
+  "DVTSourceControlWorkspaceBlueprintWorkingCopyRepositoryLocationsKey" : {
+    "6664a1a3-b837-494e-9f0c-04368c14b365++9051" : {
+
+    }
+  },
+  "DVTSourceControlWorkspaceBlueprintWorkingCopyStatesKey" : {
+    "6664a1a3-b837-494e-9f0c-04368c14b365++9051" : 9223372036854775807
+  },
+  "DVTSourceControlWorkspaceBlueprintIdentifierKey" : "52B9CD09-F2B7-4CE7-A7C5-964BF3F6D132",
+  "DVTSourceControlWorkspaceBlueprintWorkingCopyPathsKey" : {
+    "6664a1a3-b837-494e-9f0c-04368c14b365++9051" : "Agario\/"
+  },
+  "DVTSourceControlWorkspaceBlueprintNameKey" : "agario",
+  "DVTSourceControlWorkspaceBlueprintVersion" : 204,
+  "DVTSourceControlWorkspaceBlueprintRelativePathToProjectKey" : "Code\/agario-clone-ios-master\/agario.xcodeproj",
+  "DVTSourceControlWorkspaceBlueprintRemoteRepositoriesKey" : [
+    {
+      "DVTSourceControlWorkspaceBlueprintRemoteRepositoryURLKey" : "svn:\/\/192.168.0.22\/svn\/team2\/outsourcing",
+      "DVTSourceControlWorkspaceBlueprintRemoteRepositorySystemKey" : "com.apple.dt.Xcode.sourcecontrol.Subversion",
+      "DVTSourceControlWorkspaceBlueprintRemoteRepositoryIdentifierKey" : "6664a1a3-b837-494e-9f0c-04368c14b365++9051"
+    }
+  ]
+}
