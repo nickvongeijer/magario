@@ -51,13 +51,19 @@ func randomColor() -> Int {
 }
 
 func randomValue() -> Int {
-	return Int(arc4random_uniform(10))
+	return Int(arc4random_uniform(20))
 }
 
 func randomAddEquation(sum: UInt32) -> String {
 	let addingValue	= arc4random_uniform(sum)
 	let addedValue	= sum - addingValue
 	return String(addingValue) + " + " + String(addedValue)
+}
+
+func randomSubtraction(res result: UInt32) -> String {
+	
+	let difference = arc4random_uniform(result)
+	return String(result + difference) + " - " + String(difference)
 }
 
 func randomPosition() -> CGPoint {

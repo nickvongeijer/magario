@@ -16,7 +16,7 @@ class Food : SKSpriteNode {
     
 	init(value: Int){
         //super.init()
-        super.init(texture: nil, color: UIColor.init(hex: GlobalConstants.Color[value]), size: CGSize(width: radius * 2, height: radius * 2))
+        super.init(texture: nil, color: UIColor.init(hex: GlobalConstants.Color[value % GlobalConstants.Color.count]), size: CGSize(width: radius * 2, height: radius * 2))
 //		super.init(texture: nil, color: UIColor.clear, size: CGSize(width: radius * 2, height: radius * 2))
 		self.name  = "food-" + UUID().uuidString
 		self.sufValue = value

@@ -43,7 +43,11 @@ class Ball : SKShapeNode {
         if let nm = self.ballValue {
             self.nameLabel = SKLabelNode(fontNamed: "AmericanTypewriter-Bold")
 //            self.nameLabel!.text = String(nm)
-			self.nameLabel?.text = randomAddEquation(sum: UInt32(nm))
+			if arc4random_uniform(2) == 0 {
+				self.nameLabel?.text = randomAddEquation(sum: UInt32(nm))
+			} else {
+				self.nameLabel?.text = randomSubtraction(res: UInt32(nm))
+			}
             self.nameLabel!.fontSize = 16
             self.nameLabel!.horizontalAlignmentMode = .center
             self.nameLabel!.verticalAlignmentMode = .center
@@ -212,8 +216,13 @@ class Ball : SKShapeNode {
         self.physicsBody?.velocity = oldv!
 		
 		self.ballValue = randomValue()
-		self.nameLabel?.text = randomAddEquation(sum: UInt32(self.ballValue!))
-		self.color = GlobalConstants.Color[self.ballValue!]
+		let nm = UInt32(self.ballValue!)
+		if arc4random_uniform(2) == 0 {
+			self.nameLabel?.text = randomAddEquation(sum: UInt32(nm))
+		} else {
+			self.nameLabel?.text = randomSubtraction(res: UInt32(nm))
+		}
+		self.color = GlobalConstants.Color[self.ballValue! % GlobalConstants.Color.count]
 		self.fillColor = UIColor.init(hex: self.color!)
     }
     
