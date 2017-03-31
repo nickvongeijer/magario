@@ -308,7 +308,8 @@ class GameScene: SKScene {
         let scaleFactorBallNumber = 1.0 + (log(CGFloat(player.children.count)) - 1) * 0.2
         let t = log10(CGFloat(player.totalMass())) - 1
         let scaleFactorBallMass = 1.0 + t * t * 1.0
-        world.setScale(1 / scaleFactorBallNumber / scaleFactorBallMass)
+		
+        world.setScale(max(1 / scaleFactorBallNumber / scaleFactorBallMass, 0.7))
     }
     
     func motionDetection() -> CGVector? {

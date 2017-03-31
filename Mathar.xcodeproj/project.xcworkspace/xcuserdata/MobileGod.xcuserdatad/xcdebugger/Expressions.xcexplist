@@ -14,16 +14,16 @@
          contextName = "Ball.refresh() -&gt; ():Ball.swift">
          <PersistentStrings>
             <PersistentString
-               value = "node.parent.children.count">
+               value = "(node as! Food).sufValue">
             </PersistentString>
             <PersistentString
                value = "contacted.count">
             </PersistentString>
             <PersistentString
-               value = "node.parent">
+               value = "node.parent.children.count">
             </PersistentString>
             <PersistentString
-               value = "(node as! Food).sufValue">
+               value = "node.parent">
             </PersistentString>
          </PersistentStrings>
       </ContextState>
@@ -43,6 +43,14 @@
          <PersistentStrings>
             <PersistentString
                value = "radius">
+            </PersistentString>
+         </PersistentStrings>
+      </ContextState>
+      <ContextState
+         contextName = "GameScene.scaleWorldBasedOnPlayer(Player) -&gt; ():GameScene.swift">
+         <PersistentStrings>
+            <PersistentString
+               value = "max(1 / scaleFactorBallNumber / scaleFactorBallMass, 0.3)">
             </PersistentString>
          </PersistentStrings>
       </ContextState>
